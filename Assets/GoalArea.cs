@@ -8,7 +8,7 @@ public class GoalArea : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-	
+		isGoal = false;
 	}
 	
 	// Update is called once per frame
