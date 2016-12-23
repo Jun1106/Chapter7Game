@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Timer : MonoBehaviour {
 
-	 float second = 0;
+	 static public float second = 0f;
 
 	// Use this for initialization
 	void Start () {
