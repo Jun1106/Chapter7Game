@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class GoalArea : MonoBehaviour {
 	
-	bool isGoal = false;
+	static public bool isGoal = false;
 	
 	// Use this for initialization
 	void Start () {
@@ -15,6 +15,7 @@ public class GoalArea : MonoBehaviour {
 	void Update () {
 	
 	}
+
 
 	void OnTriggerEnter(Collider col) {
 		if (col.gameObject.tag == "Player") {
